@@ -17,10 +17,8 @@
 # Chapter 3 Lab: Linear Regression
 
 library(MASS)
-data(wingsc1)
+load(file='../demoData/wingsc1')
 names(wingsc1)
-?wingsc1
-fix(wingsc1)
 
 # Simple Linear Regression ------------------------------------------------
 mean(wingsc1$ntvbrw2, na.rm=TRUE)
@@ -54,16 +52,17 @@ abline(lmfit,lwd=3)
 abline(lmfit,lwd=3,col="red")
 
 # Better graph
-plot(ntvbrw2 ~ ntvbrw1, data=wingsc1, col='blue', 
-     main='Relationship between home value and \n the % of the suburb that is lower status ',
-     xlab='% lower status',
-     ylab="median home value (in $1,000's)",
+plot(ntvbrw2 ~ jitter(ntvbrw1), data=wingsc1, col='blue', 
+     main='Relationship between Theory of Mind \n at Time 1 and 2',
+     xlab='NEPSY Theory of Mind Verbal Score, Time 1',
+     ylab='NEPSY Theory of Mind Verbal Score Time 2',
      ylim=c(0,25), xlim=c(0,20))
 abline(lmfit,lwd=3,col="red")
-## CAUTION! Feel free to ignore this command.
-segments(wingsc1$ntvbrw1, wingsc1$ntvbrw2, wingsc1$ntvbrw1, predict(lmfit), col='grey')
-legend(12, 3.5, bquote(Y[i] == beta[0] + beta[1]*x[i] + epsilon[i]), bty='n')
-abline(v=0, lty=3,col='green')
+## CAUTION! Feel free to ignore these functions.
+# segments(wingsc1$ntvbrw1, wingsc1$ntvbrw2, wingsc1$ntvbrw1, 
+#          predict(lmfit), col='grey')
+# legend(12, 3.5, bquote(Y[i] == beta[0] + beta[1]*x[i] + epsilon[i]), bty='n')
+# abline(v=0, lty=3,col='green')
 
 
 plot(residuals(lmfit) ~ predict(lmfit), data=wingsc1)
@@ -82,12 +81,7 @@ wings <- wingsc1[ ,c('dmschool1', 'dmcond1',
                      'ntvbrw2')]
 lmfit <- lm(ntvbrw2 ~ ntvbrw1 + dmagey1, data=wings)
 summary(lmfit)
-lmfit <- lm(ntvbrw2 ~ ., data=wings)
-summary(lmfit)
-
-lmfit1 <- lm(ntvbrw2 ~ . - age - indus, data=wingsc1)
-summary(lmfit1)
-lmfit1 <- update(lmfit, ~.-age)
+# you may have some extra code here that doesn't work
 
 library(car)
 vif(lmfit1)
