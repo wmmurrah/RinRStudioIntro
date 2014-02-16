@@ -17,7 +17,7 @@
 # Chapter 3 Lab: Linear Regression
 
 library(MASS)
-load(file='../demoData/wingsc1')
+load(file='../data/wingsc1')
 names(wingsc1)
 
 # Simple Linear Regression ------------------------------------------------
@@ -48,7 +48,7 @@ plot(jitter(wingsc1$ntvbrw1), wingsc1$ntvbrw2)
 # Or, we can use the fomula argument:
 plot(ntvbrw2 ~ jitter(ntvbrw1), data=wingsc1, col='blue', pch=20)
 abline(lmfit)
-abline(lmfit,lwd=3)
+abline(lmfit, lwd=3)
 abline(lmfit,lwd=3,col="red")
 
 # Better graph
@@ -79,15 +79,15 @@ par(mfrow=c(1,1))
 wings <- wingsc1[ ,c('dmschool1', 'dmcond1', 
                      'dmmale', 'dmagey1', 'ntvbrw1',
                      'ntvbrw2')]
-lmfit <- lm(ntvbrw2 ~ ntvbrw1 + dmagey1, data=wings)
+lmfit <- lm(ntvbrw2 ~ ntvbrw1 + dmagey1, data=wingsc1)
 summary(lmfit)
 # you may have some extra code here that doesn't work
 
 library(car)
-vif(lmfit1)
+vif(lmfit)
 
 library(texreg)
-screenreg(lmfit1)
+screenreg(lmfit)
 # Interaction Terms -------------------------------------------------------
 
 lmfitx1 <- lm(ntvbrw2 ~ ntvbrw1 + dmagey1 + ntvbrw1:dmagey1, wingsc1)
@@ -116,8 +116,9 @@ summary(lmfit)
 attach(Carseats)
 contrasts(Carseats$ShelveLoc)
 
-
-
+lmfit3 <- lm(ntvbrw2 ~ ntvbrw1 + dmmale + dmschool1, wingsc1)
+summary(lmfit3)
+contrasts(wingsc1$dmschool1)
 # Qualitative Predictors --------------------------------------------------
 
 names(wingsc1)
@@ -150,7 +151,7 @@ cent <- function(x) {
 
 cnt.lmfit <- lm(cent(htp3su2) ~ dmcond1 + cent(htp3su1) + dmmale + cent(dmagey1) + 
                 dmschool1, wingsc1)
-
+summary(cnt.lmfit)
 cnt.lmfit2 <- lm(scale(htp3su2,scale=F) ~ scale(htp3su1,scale=F) + dmmale + 
                  scale(dmagey1,scale=F) + 
                  dmschool1, wingsc1)

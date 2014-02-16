@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Descriptive Statistics}{3}{section.2}
+\contentsline {section}{\numberline {3}Intent-to-treat Analyses}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Pretest-posttest Regressions}{6}{subsection.3.1}
+\contentsline {section}{Appendices}{8}{section*.2}
+\contentsline {section}{\numberline {A}Data Preparation Code}{8}{Appendix.1.A}
+\contentsline {subsection}{\numberline {A.1}starRmake.R}{8}{subsection.1.A.1}
+\contentsline {subsection}{\numberline {A.2}prePost.R}{8}{subsection.1.A.2}
+\contentsline {subsection}{\numberline {A.3}stdPrePost.R}{9}{subsection.1.A.3}
+\contentsline {section}{\numberline {B}R Session Information}{10}{Appendix.1.B}

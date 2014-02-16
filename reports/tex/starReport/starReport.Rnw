@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{longtable} % needed for reporttools tables.
+\usepackage{pdflscape} % for landscape pages.
+\usepackage{hyperref}  % package used for hyperlinked toc.
+\usepackage [toc, page]{appendix} % used for appendices
+\usepackage{verbatim}
+
+
+\begin{document}
+
+\author{William Murrah}
+\title{STAR Example Intent-to-treat Report}
+\maketitle
+\tableofcontents
+
+<<opts, echo=FALSE, results='hide'>>=
+opts_chunk$set(echo=FALSE, warnings=FALSE, message=FALSE, comment = "")
+opts_knit$set(root.dir='../../../')
+@
+
+
+<<data ,results='hide'>>=
+source('analyses/prePost.R')
+source('analyses/stdPrePost.R')
+library(reporttools)
+library(psych)
+library(texreg)
+# create data frames for descriptive statistics tables
+factor.df <- star[ ,c('gender', 'ethnicity', 'school1', 'degreek')]
+numeric.df <- star[ ,c('readk', 'read1', 'mathk', 'math1')]
+@
+\clearpage
+\section{Introduction}
+
+This is an example report of the \emph{STAR} data. The data consists of \Sexpr{nrow(star)} cases and \Sexpr{ncol(star)} variables. This example is a simplified version of the types of internal lab reports that can be generated using R and the \texttt{knitr} package to produce reproducible analyses. 
+
+\clearpage
+\begin{landscape}
+\section{Descriptive Statistics}
+<<descriptiveFactors, results='asis', warning=FALSE>>=
+tableNominal(factor.df, group=star$tx, print.pval='chi2',
+             cap='Descriptive Statistics for Qualitative Variables')
+
+@
+\clearpage
+<<descriptiveNumeric, results='asis'>>=
+tableContinuous(numeric.df, group=star$tx, print.pval='anova',
+                cap='Descriptive Statistics for Qauntitative Variables')
+@
+\end{landscape}
+\clearpage
+<<pairsplot, results='asis', fig.pos='h', fig.width=12, fig.height=12>>=
+pairs.panels(star[ ,-1], hist.col='steelblue')
+@
+\clearpage
+\section{Intent-to-treat Analyses}
+\subsection{Pretest-posttest Regressions}
+<<prePost, results='asis'>>=
+texreg(list(readmod.pp, mathmod.pp), custom.model.names=c('Reading', 'Math'),
+       float.pos='h', caption='Unstandardized ITT Models')
+@
+
+<<stdPrePost, results='asis'>>=
+texreg(list(readmod.spp, mathmod.spp), custom.model.names=c('Reading', 'Math'),
+       float.pos='h', caption='Standardized ITT Models')
+@
+\clearpage
+\clearpage
+\begin{appendices}
+\section{Data Preparation Code}
+\label{rcode}
+\subsection{starRmake.R}
+\verbatiminput{../../../data/starRmake.R}
+\subsection{prePost.R}
+\verbatiminput{../../../analyses/prePost.R}
+\subsection{stdPrePost.R}
+\verbatiminput{../../../analyses/stdPrePost.R}
+\clearpage
+\section{R Session Information}
+<<sessionInfo, results='markup'>>=
+sessionInfo()
+@
+\end{appendices}
+\end{document}
