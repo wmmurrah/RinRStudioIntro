@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[doc]{apa6}
 \usepackage{longtable} % needed for reporttools tables.
 \usepackage{pdflscape} % for landscape pages.
 \usepackage{hyperref}  % package used for hyperlinked toc.
@@ -20,13 +20,15 @@ opts_knit$set(root.dir='../../../')
 
 
 <<data ,results='hide'>>=
+# source('data/starRmake.R')
 source('analyses/prePost.R')
 source('analyses/stdPrePost.R')
 library(reporttools)
 library(psych)
 library(texreg)
+library(tables)
 # create data frames for descriptive statistics tables
-factor.df <- star[ ,c('gender', 'ethnicity', 'school1', 'degreek')]
+factor.df <- star[ ,c('gender', 'ethnicity', 'schoolk','birth', 'lunchk')]
 numeric.df <- star[ ,c('readk', 'read1', 'mathk', 'math1')]
 @
 \clearpage
@@ -37,14 +39,21 @@ This is an example report of the \emph{STAR} data. The data consists of \Sexpr{n
 \clearpage
 \begin{landscape}
 \section{Descriptive Statistics}
+
+<<crosstab1, results='asis'>>=
+Mean <- function(x) mean(x, na.rm=TRUE)
+SD <- function(x) sd(x, na.rm=TRUE)
+latex(tabular((mathk + readk)*(Mean + SD) ~ schoolk + 1, star))
+@
+\clearpage
 <<descriptiveFactors, results='asis', warning=FALSE>>=
-tableNominal(factor.df, group=star$tx, print.pval='chi2',
+tableNominal(factor.df, group=star$stark, print.pval='chi2',
              cap='Descriptive Statistics for Qualitative Variables')
 
 @
 \clearpage
 <<descriptiveNumeric, results='asis'>>=
-tableContinuous(numeric.df, group=star$tx, print.pval='anova',
+tableContinuous(numeric.df, group=star$stark, print.pval='anova',
                 cap='Descriptive Statistics for Qauntitative Variables')
 @
 \end{landscape}
