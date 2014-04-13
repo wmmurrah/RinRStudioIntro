@@ -1,0 +1,97 @@
+# STAR Example Intent-to-treat Report
+
+```{r opts, echo=FALSE, results='hide'}
+opts_chunk$set(echo=FALSE, warnings=FALSE, message=FALSE, comment = "")
+opts_knit$set(root.dir='../../../')
+```
+
+
+```{r Rdata ,results='hide'}
+# source('data/starRmake.R')
+source('analyses/prePost.R')
+source('analyses/stdPrePost.R')
+library(reporttools)
+library(psych)
+library(Gmisc)
+library(texreg)
+library(tables)
+# create data frames for descriptive statistics tables
+factor.df <- star[ ,c('gender', 'ethnicity', 'schoolk','birth', 'lunchk')]
+numeric.df <- star[ ,c('readk', 'read1', 'mathk', 'math1')]
+```
+
+## Introduction
+
+This is an example report of the _STAR_ data. The data consists of `r nrow(star)` cases and `r ncol(star)` variables. This example is a simplified version of the types of internal lab reports that can be generated using R and the `knitr` package to produce reproducible analyses. 
+
+
+## Descriptive Statistics
+### Table 1.
+```{r crosstab1, results='asis'}
+Mean <- function(x) mean(x, na.rm=TRUE)
+SD <- function(x) sd(x, na.rm=TRUE)
+Min <- function(x) min(x, na.rm=TRUE)
+Max <- function(x) max(x, na.rm=TRUE)
+
+html(tabular((mathk + readk)*(Mean + SD) ~ schoolk + 1, star))
+
+```
+
+### Table 2.
+```{r tab2, results='asis', warning=FALSE}
+
+
+html(tabular(All(star) ~ (n=1) + Mean + SD + Min + Max , star))
+
+```
+### Descriptive table
+```{r descriptiveNumeric, results='asis'}
+dat <- round(as.data.frame((psych::describe(star))),2)
+htmlTable(dat) # Gmisc package
+```
+
+## Barplots
+
+```{r barplot gender, results='asis'}
+barplot(table(star$gender), main='Gender')
+barplot(table(star$ethnicity), main='Ethnicity')
+barplot(table(star$birth), main='Birth')
+barplot(table(star$stark), main='treatment condition')
+
+```
+
+## Histograms
+
+```{r histograms, results='asis'}
+hist(star$readk, col='skyblue', main='K Reading')
+hist(star$mathk, col='skyblue', main='K Math')
+hist(star$read1, col='skyblue', main='1st Reading')
+hist(star$math1, col='skyblue', main='1st Math')
+```
+
+
+```{r pairsplot, results='asis', fig.pos='h', fig.width=12, fig.height=12}
+pairs.panels(star[ ,-1], hist.col='steelblue')
+```
+
+## Intent-to-treat Analyses
+### Pretest-posttest Regressions
+```{rprePost, results='asis'}
+htmlreg(list(readmod.pp, mathmod.pp), custom.model.names=c('Reading', 'Math'),
+       float.pos='h', caption='Unstandardized ITT Models')
+```
+
+```{r stdPrePost, results='asis'}
+htmlreg(list(readmod.spp, mathmod.spp), custom.model.names=c('Reading', 'Math'),
+       float.pos='h', caption='Standardized ITT Models')
+```
+
+
+## R Session Information
+```{r sessionInfo, results='markup'}
+sessionInfo()
+```
+
+
+
+
