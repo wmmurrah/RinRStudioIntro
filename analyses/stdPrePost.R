@@ -1,8 +1,8 @@
 #**************************************************************************
 # stdPrePost.R -------------------------------------------------------------
 source('data/starRmake.R')
-fml <- 'scale(posttest) ~ tx + scale(pretest) + gender + ethnicity + 
-degreek + school1'
+fml <- 'scale(posttest) ~ stark + scale(pretest) + gender + ethnicity + 
+lunchk + schoolk'
 df <- star
 # reading -----------------------------------------------------------------
 posttest <- star$read1

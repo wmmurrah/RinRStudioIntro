@@ -2,7 +2,7 @@
 # prePost.R ---------------------------------------------------------------
 source('data/starRmake.R')
 # Regression formula for 
-fml <- 'posttest ~ tx + pretest + gender + ethnicity + degreek + school1'
+fml <- 'posttest ~ stark + pretest + gender + ethnicity + lunchk + schoolk'
 df <- star
 # reading -----------------------------------------------------------------
 posttest <- star$read1
