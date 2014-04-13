@@ -1,101 +1,151 @@
-"","gender","ethnicity","readk","read1","mathk","math1","school1","degreek"
-"22199","male","cauc",416,482,468,535,"suburban","bachelor"
-"116608","male","afam",NA,519,NA,505,"rural",NA
-"114192","male","afam",440,477,444,515,"inner-city","bachelor"
-"116800","female","cauc",NA,544,NA,578,"rural",NA
-"160859","male","cauc",NA,460,NA,515,"rural",NA
-"119920","female","cauc",445,NA,536,538,"rural","bachelor"
-"2872","female","hispanic",NA,NA,NA,NA,NA,NA
-"44233","female","afam",437,NA,463,NA,NA,"bachelor"
-"124652","male","afam",NA,NA,NA,NA,NA,NA
-"96497","male","cauc",413,NA,439,NA,NA,"master"
-"129740","male","cauc",NA,NA,NA,NA,NA,NA
-"102172","female","cauc",NA,NA,NA,NA,NA,NA
-"53513","female","cauc",421,590,473,529,"suburban","bachelor"
-"172315","female","cauc",427,454,444,479,"rural","bachelor"
-"55288","female","cauc",NA,NA,NA,NA,NA,NA
-"156331","male","cauc",451,474,473,502,"suburban","master+"
-"54158","female","cauc",NA,NA,NA,NA,NA,NA
-"50561","female","afam",430,NA,473,NA,NA,"bachelor"
-"35709","male","cauc",478,604,520,578,"suburban","master"
-"44119","female","cauc",NA,NA,NA,NA,NA,"master"
-"59756","female","cauc",428,NA,449,NA,NA,"master"
-"57182","female","afam",408,NA,439,NA,NA,"bachelor"
-"30571","female","cauc",433,564,478,545,"rural","bachelor"
-"8503","male","cauc",NA,NA,NA,NA,NA,NA
-"41626","female","cauc",NA,NA,NA,NA,NA,NA
-"151259","male","cauc",442,590,454,526,"rural","bachelor"
-"98471","female","cauc",518,604,506,627,"rural","master"
-"170489","male","cauc",447,553,489,601,"rural","master"
-"155046","male","cauc",NA,651,NA,653,"rural",NA
-"9575","female","afam",NA,NA,NA,NA,NA,NA
-"85569","male","cauc",NA,NA,NA,512,"rural",NA
-"50188","female","afam",472,524,602,578,"inner-city","bachelor"
-"57483","male","afam",NA,NA,NA,NA,NA,NA
-"95020","male","afam",483,536,520,549,"inner-city","bachelor"
-"34617","female","cauc",NA,507,NA,515,"rural",NA
-"141693","female","cauc",NA,NA,NA,NA,NA,NA
-"38332","female","cauc",430,579,494,529,"rural","master"
-"48985","female","cauc",495,579,528,542,"rural","bachelor"
-"184670","female","afam",NA,540,NA,535,"inner-city","bachelor"
-"150476","female","afam",405,442,429,463,"inner-city","master+"
-"103473","male","afam",456,590,468,553,"inner-city","bachelor"
-"120671","male","cauc",450,571,559,572,"suburban","master+"
-"58759","female","cauc",NA,571,NA,529,"suburban",NA
-"116105","female","afam",NA,NA,NA,NA,NA,NA
-"62075","female","afam",430,503,449,486,"inner-city","bachelor"
-"93937","male","afam",NA,NA,NA,NA,NA,"bachelor"
-"126282","female","afam",NA,NA,NA,NA,NA,NA
-"90783","female","afam",495,501,576,557,"suburban","master"
-"46184","male","afam",428,NA,506,NA,NA,"master"
-"142587","male","cauc",NA,NA,NA,NA,NA,NA
-"14749","female","cauc",NA,NA,NA,NA,NA,NA
-"58310","female","cauc",NA,NA,NA,NA,NA,NA
-"133639","female","afam",NA,533,NA,518,"inner-city",NA
-"94330","male","afam",428,536,454,535,"rural","master"
-"29369","male","cauc",418,540,468,549,"rural","master"
-"94204","male","cauc",437,NA,468,NA,NA,"bachelor"
-"92369","female","cauc",NA,NA,NA,NA,NA,NA
-"139857","female","cauc",NA,NA,NA,NA,NA,NA
-"33358","male","cauc",450,490,494,532,"urban","bachelor"
-"157787","male","cauc",NA,NA,NA,NA,NA,NA
-"160811","male",NA,NA,NA,NA,NA,NA,NA
-"8826","male","cauc",472,NA,528,NA,NA,"bachelor"
-"59659","female","cauc",NA,NA,NA,NA,NA,NA
-"3645","male","cauc",436,544,459,532,"rural","master"
-"45210","female","cauc",NA,NA,NA,NA,"rural",NA
-"131511","male","afam",NA,521,NA,523,"suburban",NA
-"57950","female","cauc",NA,NA,NA,NA,NA,NA
-"94968","female","cauc",NA,NA,NA,NA,NA,NA
-"10631","male","cauc",418,446,429,521,"suburban","bachelor"
-"105279","male","cauc",418,501,489,578,"rural","bachelor"
-"23518","female","afam",NA,483,NA,526,"inner-city",NA
-"165825","male","cauc",439,579,478,553,"suburban","bachelor"
-"3801","male","afam",418,499,473,500,"inner-city","master"
-"145543","female","afam",447,536,459,507,"urban","bachelor"
-"17691","male","cauc",463,564,559,584,"rural","bachelor"
-"96856","female","cauc",NA,NA,NA,584,"rural",NA
-"71964","male","afam",NA,425,NA,468,"inner-city",NA
-"14033","female","cauc",NA,553,NA,578,"urban",NA
-"60202","male","afam",440,519,439,477,"inner-city","bachelor"
-"124351","female","cauc",427,NA,520,NA,NA,"bachelor"
-"171882","male","cauc",455,590,494,523,"rural","bachelor"
-"88090","male","cauc",430,590,489,529,"rural","bachelor"
-"27387","female","afam",405,NA,375,NA,NA,"bachelor"
-"101416","male","afam",NA,NA,NA,NA,NA,NA
-"37248","male","afam",NA,NA,NA,NA,NA,NA
-"166681","male","afam",NA,478,NA,488,"inner-city",NA
-"72857","male","cauc",NA,536,NA,538,"suburban",NA
-"58365","male","cauc",455,553,489,572,"suburban","master+"
-"186370","male",NA,NA,NA,NA,NA,"rural",NA
-"166189","male","cauc",410,466,384,505,"rural","bachelor"
-"31744","female","cauc",NA,NA,NA,NA,NA,NA
-"166938","female","afam",NA,430,NA,456,"inner-city",NA
-"25783","male","cauc",448,604,528,627,"suburban","bachelor"
-"25339","male","cauc",NA,516,NA,454,"urban",NA
-"20496","female","afam",NA,NA,NA,NA,NA,NA
-"95291","male","cauc",NA,463,NA,512,"urban",NA
-"56352","male","cauc",428,NA,444,NA,NA,"bachelor"
-"6030","male","cauc",NA,NA,NA,NA,NA,NA
-"58075","male","afam",430,474,473,502,"rural","master"
-"137679","female","cauc",NA,NA,NA,NA,NA,"master"
+"","gender","ethnicity","birth","stark","star1","star2","star3","readk","read1","read2","read3","mathk","math1","math2","math3","lunchk","lunch1","lunch2","lunch3","schoolk","school1","school2","school3","degreek","degree1","degree2","degree3","ladderk","ladder1","ladder2","ladder3","experiencek","experience1","experience2","experience3","tethnicityk","tethnicity1","tethnicity2","tethnicity3","systemk","system1","system2","system3","schoolidk","schoolid1","schoolid2","schoolid3"
+"179449","female","cauc",1980 Q3,"small",NA,NA,NA,443,NA,NA,NA,520,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,18,NA,NA,NA,"cauc",NA,NA,NA,"17",NA,NA,NA,"41",NA,NA,NA
+"82199","female","cauc",1979 Q4,"regular","regular+aide","regular+aide",NA,492,540,637,NA,513,557,587,NA,"free","free","free",NA,"rural","rural","rural",NA,"master","bachelor","bachelor",NA,"level2","level1","notladder",NA,11,16,4,NA,"cauc","cauc","afam",NA,"8","8","8",NA,"11","11","11",NA
+"68952","female","afam",1979 Q4,"regular+aide","regular","regular+aide","regular+aide",398,NA,514,NA,405,444,497,NA,"free","free","free","free","rural","rural","rural","rural","bachelor","bachelor","master","master","level1","probation","level1","level1",7,3,29,11,"cauc","cauc","cauc","cauc","24","24","24","24","56","56","56","56"
+"32609","female","afam",1980 Q1,"regular+aide","regular+aide","regular","regular",419,453,518,562,444,479,523,546,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","bachelor","bachelor","apprentice","probation","level1","level1",1,17,30,31,"afam","afam","afam","afam","11","11","11","11","14","14","32","32"
+"11196","female","afam",1980 Q2,"regular",NA,NA,NA,360,NA,NA,NA,320,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"master",NA,NA,NA,"probation",NA,NA,NA,6,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"33",NA,NA,NA
+"122089","male","cauc",1979 Q3,"small","small","small","small",451,571,611,616,506,627,632,711,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","bachelor","bachelor","bachelor","master",NA,"apprentice","level1","level1",0,0,14,18,"cauc","cauc","cauc","cauc","4","4","4","4","4","4","4","4"
+"107086","female","cauc",1980 Q2,"regular+aide",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,5,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"21",NA,NA,NA
+"183773","male","cauc",1980 Q2,"regular+aide","regular","regular","regular",451,604,611,644,473,553,626,626,"free","free","non-free","non-free","rural","rural","rural","rural","master","bachelor","master","bachelor","level1","apprentice","level1","probation",21,1,12,3,"cauc","cauc","cauc","cauc","16","16","16","16","40","40","40","40"
+"112017","male","cauc",1980 Q1,"small","small","small","small",419,497,573,547,473,510,563,570,NA,NA,"non-free","non-free","rural","rural","rural","rural","master","master","bachelor","bachelor","level1","level1","level1","apprentice",8,14,6,2,NA,"cauc","cauc","cauc","40","40","40","40","76","77","77","77"
+"13179","female","cauc",1980 Q3,"regular+aide","regular","regular+aide","regular+aide",422,533,650,612,454,542,639,663,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","level1","level1","level1",8,19,6,17,"cauc","cauc","cauc","cauc","14","14","14","14","38","38","38","38"
+"31169","male","cauc",1980 Q1,"regular+aide","regular+aide","regular+aide",NA,467,544,604,NA,489,562,546,NA,"free","free","free",NA,"suburban","suburban","suburban",NA,"bachelor","bachelor","specialist",NA,"level1","level1","level1",NA,5,4,9,NA,"afam","cauc","cauc",NA,"22","22","22",NA,"51","51","51",NA
+"88033","female","cauc",1980 Q1,"regular+aide","regular+aide",NA,NA,460,604,NA,NA,559,578,NA,NA,"non-free","non-free",NA,NA,"urban","urban",NA,NA,"bachelor","master",NA,NA,NA,"level2",NA,NA,11,11,NA,NA,"cauc","cauc",NA,NA,"13","13",NA,NA,"37","37",NA,NA
+"1583","female","afam",1980 Q1,"regular",NA,NA,"regular",NA,NA,NA,661,NA,NA,NA,631,"free",NA,NA,"free","inner-city",NA,NA,"suburban","bachelor",NA,NA,NA,NA,NA,NA,NA,9,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,"11","28",NA,NA,"23"
+"81878","female","cauc",1979 Q4,"regular+aide","regular+aide","regular+aide","regular+aide",418,516,643,618,439,520,615,626,"non-free",NA,"non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","master","level1","level1","level1","level1",7,6,23,15,"cauc","cauc","cauc","cauc","24","24","24","24","56","56","56","56"
+"49162","male","afam",1980 Q3,"regular","regular+aide","regular+aide","regular",424,460,500,552,434,484,504,574,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","master","bachelor","bachelor","level1","level3","level1","level1",24,24,11,20,"afam","afam","cauc","cauc","11","11","11","11","22","22","22","22"
+"173857","male","cauc",1980 Q1,"small","small","small","small",447,NA,NA,NA,547,612,NA,700,"free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","master","master","level1","level1","level3","level1",8,12,14,17,"cauc","cauc","cauc","cauc","35","35","35","35","70","70","70","70"
+"132657","female","cauc",1980 Q1,"regular","regular",NA,NA,NA,468,NA,NA,NA,562,NA,NA,"non-free","non-free",NA,NA,"suburban","suburban",NA,NA,"master+","master",NA,NA,"level1","level1",NA,NA,13,13,NA,NA,"cauc","cauc",NA,NA,"22","22",NA,NA,"51","51",NA,NA
+"31277","male","cauc",1980 Q2,"regular","regular","regular","regular",507,629,709,713,576,612,659,678,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","bachelor","apprentice","apprentice","level1","probation",2,1,12,3,"cauc","cauc","cauc","cauc","16","16","16","16","40","40","40","40"
+"88090","male","cauc",1979 Q3,"small","small","small","small",430,590,582,665,489,529,574,639,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","level1","apprentice","probation",15,4,1,1,"cauc","cauc","cauc","cauc","32","32","32","32","66","66","66","66"
+"127798","female","cauc",1979 Q4,"regular",NA,NA,NA,461,NA,NA,NA,559,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"apprentice",NA,NA,NA,1,NA,NA,NA,"cauc",NA,NA,NA,"4",NA,NA,NA,"6",NA,NA,NA
+"85324","female","cauc",1980 Q2,"regular","regular",NA,NA,422,478,NA,NA,449,515,NA,NA,"non-free","non-free",NA,NA,"rural","rural",NA,NA,"master","bachelor",NA,NA,"level1","apprentice",NA,NA,10,2,NA,NA,"cauc","cauc",NA,NA,"1","1",NA,NA,"1","1",NA,NA
+"176814","male","cauc",1980 Q2,"regular+aide","regular","regular","regular",463,NA,NA,NA,489,584,NA,648,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","master","level2","probation","level3","level1",27,0,18,14,"cauc","cauc","cauc","cauc","35","35","35","35","70","70","70","70"
+"132049","male","cauc",1980 Q1,"regular+aide","regular+aide","regular+aide",NA,405,469,511,NA,444,507,557,NA,"free","non-free","non-free",NA,"rural","rural","rural",NA,"master","master","master",NA,"level1","level1","probation",NA,10,7,13,NA,"cauc","cauc","cauc",NA,"36","36","36",NA,"72","72","72",NA
+"73275","male","afam",1980 Q3,"small","small","small","small",428,482,555,614,528,507,552,618,"non-free","non-free","non-free","non-free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","master","master","level1","notladder","level1","level1",6,9,33,18,"afam","afam","afam","afam","11","11","11","11","19","19","19","19"
+"22876","male","cauc",1980 Q2,"small",NA,NA,NA,448,NA,NA,NA,500,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,10,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"18",NA,NA,NA
+"45388","female","afam",1980 Q2,"regular+aide","regular","regular","regular",434,548,552,590,449,500,536,549,"non-free","free","free","non-free","suburban","suburban","suburban","suburban","bachelor","bachelor","bachelor","bachelor",NA,"level1","notladder","level1",12,11,4,7,"afam","cauc","afam","afam","11","11","11","11","20","20","20","20"
+"159472","male","cauc",1980 Q1,"regular+aide","regular","regular","small",538,651,608,647,494,584,620,684,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","probation","apprentice","probation",3,0,1,1,"cauc","cauc","cauc","cauc","32","32","32","32","66","66","66","66"
+"80857","female","cauc",1980 Q3,"small","small","small","small",460,533,611,626,500,497,620,618,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","bachelor","bachelor","bachelor","bachelor","level1","notladder","level1","level1",16,23,33,15,"afam","cauc","cauc","cauc","22","22","22","22","51","51","51","51"
+"91985","male","afam",1980 Q1,"regular","regular+aide","regular","regular+aide",440,521,566,618,434,532,541,NA,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","master","bachelor","probation","level1","probation","level1",0,24,24,25,"afam","afam","afam","afam","11","11","11","11","27","27","27","27"
+"127950","male","cauc",1980 Q2,"small",NA,NA,NA,414,NA,NA,NA,459,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"specialist",NA,NA,NA,"level1",NA,NA,NA,10,NA,NA,NA,"cauc",NA,NA,NA,"3",NA,NA,NA,"3",NA,NA,NA
+"140301","male","cauc",1980 Q2,"regular",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"non-free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,10,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"18",NA,NA,NA
+"29806","male","afam",1980 Q2,"regular+aide",NA,NA,NA,400,NA,NA,NA,412,NA,NA,NA,"free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"probation",NA,NA,NA,0,NA,NA,NA,"cauc",NA,NA,NA,"18",NA,NA,NA,"46",NA,NA,NA
+"156455","male","cauc",1979 Q4,"small","small","small","regular",437,516,550,NA,468,518,520,NA,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","level1","apprentice","level1",15,4,1,26,"cauc","cauc","cauc","cauc","32","32","32","32","66","66","66","66"
+"174843","male","cauc",1980 Q3,"regular","regular","regular","small",395,485,604,650,439,512,615,663,"non-free","non-free","non-free","free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","level1","apprentice","notladder",8,12,2,24,"afam","cauc","cauc","cauc","32","32","32","32","66","66","66","66"
+"108570","female","cauc",1980 Q3,"regular","regular",NA,NA,445,NA,NA,NA,449,NA,NA,NA,"non-free","non-free",NA,NA,"rural","rural",NA,NA,"master","master",NA,NA,"level1","level1",NA,NA,10,2,NA,NA,"cauc","cauc",NA,NA,"1","1",NA,NA,"1","1",NA,NA
+"92886","female","cauc",1979 Q4,"small","small","small","small",431,527,618,639,463,500,590,626,"non-free","non-free","free",NA,"suburban","suburban","suburban","suburban","master","master","master","master","level1","level1","level2","level3",7,12,11,18,"cauc","cauc","cauc","cauc","28","28","28","28","61","61","61","61"
+"36367","female","afam",1980 Q1,"small","small","regular+aide","regular",NA,524,593,612,NA,532,582,624,"non-free","non-free","non-free","non-free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","bachelor","bachelor","probation","level1","level1","level1",9,6,11,20,"afam","afam","cauc","cauc","11","11","11","11","22","22","22","22"
+"1561","male","cauc",1980 Q3,"regular+aide","regular+aide","regular+aide","regular+aide",437,503,552,578,468,512,574,554,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","level3","level1","level3",6,16,8,12,"cauc","cauc","cauc","cauc","35","35","35","35","69","69","69","69"
+"161610","female","afam",1980 Q3,"regular+aide","small",NA,NA,431,579,NA,NA,418,526,NA,NA,"free","free",NA,NA,"inner-city","inner-city",NA,NA,"bachelor","bachelor",NA,NA,"apprentice","apprentice",NA,NA,0,2,NA,NA,"cauc","afam",NA,NA,"11","11",NA,NA,"32","29",NA,NA
+"25815","male","cauc",1979 Q4,"regular+aide","regular","regular","regular",439,507,569,622,478,502,603,648,"non-free","non-free","non-free","free","rural","rural","rural","rural","master","master","master","bachelor","level1","level1","level1","level1",11,5,11,19,"cauc","cauc","cauc","cauc","39","39","39","39","75","75","75","75"
+"5565","female","cauc",1980 Q2,"regular+aide","regular+aide","regular+aide","regular+aide",467,492,547,610,500,502,525,616,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","bachelor","master","level1","level1","apprentice","level1",10,9,2,15,"cauc","cauc","cauc","cauc","34","34","34","34","68","68","68","68"
+"173383","male","cauc",1979 Q4,"regular+aide","regular",NA,NA,413,439,NA,NA,468,493,NA,NA,"non-free","free",NA,NA,"urban","urban",NA,NA,"bachelor","bachelor",NA,NA,"apprentice","level1",NA,NA,5,11,NA,NA,"cauc","cauc",NA,NA,"27","27",NA,NA,"60","60",NA,NA
+"54448","female","cauc",1980 Q1,"small","small","small","small",425,553,569,610,513,529,611,618,"free","free","non-free","free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor",NA,"notladder","level1","level1",6,6,10,14,"cauc","cauc","cauc","cauc","21","21","21","21","50","50","50","50"
+"31366","male","cauc",1978 Q4,"regular+aide","regular",NA,NA,402,456,NA,NA,478,495,NA,NA,"free","free",NA,NA,"urban","urban",NA,NA,"bachelor","bachelor",NA,NA,"level1","level1",NA,NA,17,5,NA,NA,"cauc","cauc",NA,NA,"2","2",NA,NA,"2","2",NA,NA
+"73404","female","cauc",1980 Q2,"regular+aide",NA,"regular+aide",NA,427,NA,569,NA,454,NA,538,NA,"non-free",NA,"non-free",NA,"rural",NA,"rural",NA,"master",NA,"bachelor",NA,"level1",NA,"level1",NA,9,NA,11,NA,"cauc",NA,"cauc",NA,"3",NA,"3",NA,"3",NA,"3",NA
+"84844","female","cauc",1980 Q2,"small",NA,NA,NA,397,NA,NA,NA,423,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"17",NA,NA,NA
+"80299","female","afam",1980 Q3,"regular","regular+aide","regular","small",461,514,549,597,602,532,599,614,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","bachelor","bachelor",NA,"apprentice","level1","level2",6,3,4,15,"afam","cauc","afam","afam","11","11","11","11","27","27","27","27"
+"95343","male","cauc",1980 Q1,"regular","regular+aide","regular+aide","regular+aide",465,571,631,693,506,542,596,711,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","bachelor","master","level2","level1","apprentice","level1",10,9,2,15,"cauc","cauc","cauc","cauc","34","34","34","34","68","68","68","68"
+"155594","female","cauc",1980 Q3,"regular+aide",NA,NA,NA,411,NA,NA,NA,454,NA,NA,NA,"free",NA,NA,NA,"urban",NA,NA,NA,"bachelor",NA,NA,NA,"apprentice",NA,NA,NA,5,NA,NA,NA,"cauc",NA,NA,NA,"27",NA,NA,NA,"60",NA,NA,NA
+"11307","male","afam",1980 Q3,"regular","regular",NA,NA,403,454,NA,NA,444,481,NA,NA,"free","free",NA,NA,"suburban","suburban",NA,NA,"bachelor","bachelor",NA,NA,"level1","level1",NA,NA,0,16,NA,NA,"cauc","cauc",NA,NA,"11","11",NA,NA,"17","17",NA,NA
+"101803","female","afam",1980 Q3,"small","small","small","small",443,465,560,578,444,512,554,579,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","bachelor","bachelor","master","apprentice","probation","level1","level1",1,1,30,33,"afam","afam","afam","afam","11","11","11","11","32","32","32","32"
+"126748","male","cauc",1980 Q2,"regular+aide","regular","regular",NA,433,604,593,NA,468,538,648,NA,"free","free","non-free",NA,"rural","rural","rural",NA,"bachelor","bachelor","master",NA,"level1","level1","level1",NA,5,19,19,NA,"cauc","cauc","cauc",NA,"31","31","31",NA,"64","64","64",NA
+"121162","male","cauc",1980 Q3,"regular+aide",NA,"regular+aide","regular+aide",580,NA,627,702,576,NA,648,752,"non-free",NA,"non-free","non-free","suburban",NA,"suburban","suburban","bachelor",NA,"master","master","level1",NA,"level1","level1",7,NA,19,19,"cauc",NA,"cauc","afam","22",NA,"22","22","54",NA,"54","54"
+"122190","female","cauc",1980 Q2,"small",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"non-free",NA,NA,NA,"urban",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,13,NA,NA,NA,"cauc",NA,NA,NA,"13",NA,NA,NA,"37",NA,NA,NA
+"86809","female","cauc",1980 Q3,"regular",NA,NA,NA,405,NA,NA,NA,423,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,13,NA,NA,NA,"cauc",NA,NA,NA,"38",NA,NA,NA,"74",NA,NA,NA
+"178509","female","afam",1980 Q2,"small","small","small",NA,436,475,554,NA,484,523,535,NA,"non-free","free","free",NA,"suburban","suburban","suburban",NA,"bachelor","bachelor","bachelor",NA,NA,"level1","level1",NA,10,9,8,NA,"afam","cauc","cauc",NA,"22","22","22",NA,"51","51","51",NA
+"73885","female","cauc",1980 Q2,"regular","small","small","small",448,571,637,641,418,549,590,663,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","bachelor","bachelor","bachelor","master","level1","apprentice","level1","level1",8,0,14,18,"cauc","cauc","cauc","cauc","4","4","4","4","4","4","4","4"
+"156001","female","cauc",1980 Q1,"regular","regular+aide","regular+aide","regular+aide",483,629,650,680,576,592,648,639,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","specialist","apprentice","level1","probation","level2",2,5,3,12,"cauc","cauc","cauc","cauc","16","16","16","16","40","40","40","40"
+"138929","male","cauc",1980 Q1,"small","small","small","small",451,604,622,620,489,592,620,642,"free","free","non-free","free","rural","rural","rural","rural","master","master","bachelor","bachelor","level1","level1","apprentice","level1",8,14,0,7,"cauc","cauc","cauc","cauc","40","40","40","40","76","77","77","77"
+"97697","female","cauc",1980 Q1,"small",NA,NA,NA,437,NA,NA,NA,500,NA,NA,NA,"non-free",NA,NA,NA,"urban",NA,NA,NA,"master+",NA,NA,NA,"level1",NA,NA,NA,12,NA,NA,NA,"cauc",NA,NA,NA,"7",NA,NA,NA,"10",NA,NA,NA
+"160490","female","cauc",1980 Q3,"regular",NA,NA,NA,390,NA,NA,NA,434,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,12,NA,NA,NA,"cauc",NA,NA,NA,"6",NA,NA,NA,"8",NA,NA,NA
+"85980","male","afam",1980 Q2,"regular",NA,NA,NA,393,NA,NA,NA,384,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"32",NA,NA,NA
+"2701","female","cauc",1980 Q2,"small","small","small","small",447,487,560,560,500,497,528,585,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","master","bachelor","bachelor","bachelor","level1","level1","level1","notladder",14,4,25,21,"afam","cauc","afam","cauc","11","11","11","11","21","21","21","21"
+"133737","female","cauc",1980 Q3,"regular","regular","regular","regular",436,558,602,631,520,549,699,700,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","level3","level1","level1",16,11,31,7,"cauc","cauc","cauc","cauc","35","35","35","35","69","69","69","69"
+"131944","male","cauc",1979 Q4,"small",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,10,NA,NA,NA,"cauc",NA,NA,NA,"18",NA,NA,NA,"42",NA,NA,NA
+"35807","female","cauc",1980 Q1,"regular",NA,"regular+aide","regular+aide",455,NA,599,636,494,NA,570,631,"non-free",NA,"non-free","free","rural",NA,"rural","rural","bachelor",NA,"bachelor","bachelor","probation",NA,"level1","probation",0,NA,8,0,"cauc",NA,"cauc","cauc","5",NA,"5","5","7",NA,"7","7"
+"118699","female","cauc",1980 Q3,"regular+aide","regular","regular","regular",421,553,564,588,449,515,582,624,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","master","level1","apprentice","probation","level1",13,2,2,13,"cauc","cauc","cauc","cauc","42","42","42","42","80","80","80","80"
+"99270","male","cauc",1979 Q4,"regular+aide","regular+aide","regular+aide","regular+aide",456,571,650,693,576,572,607,711,"non-free","non-free","non-free","non-free","urban","urban","urban","urban","master","master","master","master","level1","level1","level1","level1",12,14,18,36,"cauc","cauc","cauc","cauc","7","7","7","7","10","10","10","10"
+"62241","female","cauc",1980 Q1,"small",NA,NA,NA,410,NA,NA,NA,459,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,15,NA,NA,NA,"cauc",NA,NA,NA,"32",NA,NA,NA,"66",NA,NA,NA
+"117100","female","cauc",1979 Q2,"regular",NA,NA,NA,434,NA,NA,NA,439,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"apprentice",NA,NA,NA,1,NA,NA,NA,"cauc",NA,NA,NA,"4",NA,NA,NA,"6",NA,NA,NA
+"152126","female","cauc",1980 Q2,"regular","regular","regular","regular",407,459,509,552,449,444,510,564,"free","free","free","free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","level1","probation","apprentice",5,12,2,1,"cauc","cauc","cauc","cauc","19","19","19","19","47","47","47","47"
+"130238","female","afam",1980 Q2,"regular+aide","regular",NA,NA,398,475,NA,NA,412,472,NA,NA,"free","free",NA,NA,"inner-city","inner-city",NA,NA,"bachelor","bachelor",NA,NA,NA,"level1",NA,NA,2,4,NA,NA,"cauc","cauc",NA,NA,"11","11",NA,NA,"32","32",NA,NA
+"64506","male","afam",1980 Q3,"small","small",NA,NA,419,438,NA,NA,439,441,NA,NA,"non-free","free",NA,NA,"inner-city","inner-city",NA,NA,"bachelor","bachelor",NA,NA,"apprentice","level1",NA,NA,1,4,NA,NA,"afam","cauc",NA,NA,"11","11",NA,NA,"32","32",NA,NA
+"24671","male","afam",1980 Q1,"small","small","small","small",427,527,604,647,547,545,626,667,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","bachelor","master","bachelor","bachelor","apprentice","level2","level1","level1",1,25,4,22,"afam","afam","afam","afam","11","11","11","11","16","16","16","16"
+"70941","male","cauc",1980 Q2,"regular+aide","small","small","small",437,536,588,647,528,612,648,700,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","master","bachelor","bachelor","master","level1","level1","level1","level1",8,9,15,18,"cauc","cauc","cauc","cauc","28","4","4","4","61","4","4","4"
+"170397","male","afam",1980 Q2,"regular+aide",NA,"regular",NA,407,NA,557,NA,449,NA,530,NA,NA,NA,"free",NA,"suburban",NA,"inner-city",NA,"bachelor",NA,"master",NA,"level1",NA,"level1",NA,5,NA,9,NA,NA,NA,"cauc",NA,"11",NA,"11",NA,"21",NA,"16",NA
+"147335","male","cauc",1979 Q4,"regular+aide",NA,NA,NA,425,NA,NA,NA,463,NA,NA,NA,"free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,5,NA,NA,NA,"afam",NA,NA,NA,"22",NA,NA,NA,"51",NA,NA,NA
+"138875","female","cauc",1980 Q3,"regular","regular","regular",NA,442,514,573,NA,478,512,514,NA,"non-free","non-free","non-free",NA,"suburban","suburban","suburban",NA,"bachelor","bachelor","bachelor",NA,"pending","probation","level1",NA,3,0,8,NA,"cauc","cauc","cauc",NA,"25","25","25",NA,"58","58","58",NA
+"175466","female","cauc",1980 Q3,"small",NA,NA,NA,421,NA,NA,NA,463,NA,NA,NA,"non-free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,8,NA,NA,NA,"cauc",NA,NA,NA,"6",NA,NA,NA,"8",NA,NA,NA
+"182966","male","cauc",1979 Q4,"regular","regular+aide",NA,NA,405,NA,NA,NA,439,NA,NA,NA,"free",NA,NA,NA,"urban","urban",NA,NA,"bachelor","master",NA,NA,"level1","level1",NA,NA,5,8,NA,NA,"cauc","cauc",NA,NA,"6","6",NA,NA,"9","9",NA,NA
+"111126","male","cauc",1979 Q4,"regular+aide",NA,NA,NA,476,NA,NA,NA,528,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,3,NA,NA,NA,"cauc",NA,NA,NA,"25",NA,NA,NA,"58",NA,NA,NA
+"6937","male","afam",1980 Q3,"regular","regular","regular",NA,442,503,584,NA,468,481,572,NA,"free","free","free",NA,"inner-city","inner-city","inner-city",NA,"master","bachelor",NA,NA,"level1","probation",NA,NA,7,1,NA,NA,"cauc","afam",NA,NA,"11","11","11",NA,"28","28","28",NA
+"62272","female","cauc",1980 Q1,"regular+aide","regular","regular","regular",468,629,669,753,547,601,639,672,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","probation","level1","level1",13,0,6,8,"cauc","cauc","cauc","cauc","40","40","40","40","76","77","77","77"
+"51535","female","cauc",1980 Q1,"regular","regular+aide","regular+aide","regular+aide",447,482,571,588,489,567,593,606,"non-free","free","free","non-free","urban","urban","urban","urban","bachelor","master","master","master","level1","level1","level1","level1",5,8,19,16,"cauc","cauc","cauc","cauc","6","6","6","6","9","9","9","9"
+"22652","male","cauc",1980 Q2,"small",NA,NA,NA,445,NA,NA,NA,489,NA,NA,NA,"non-free",NA,NA,NA,"urban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,13,NA,NA,NA,"cauc",NA,NA,NA,"6",NA,NA,NA,"9",NA,NA,NA
+"9211","male","afam",1980 Q3,"small","small","small","small",470,579,684,693,576,612,674,711,"free","free","free","free","suburban","suburban","suburban","suburban","bachelor","bachelor","master","bachelor","level1","probation","level1","probation",12,1,11,8,"afam","afam","cauc","cauc","11","11","11","11","25","25","25","25"
+"68206","female","afam",1980 Q2,"small","small",NA,NA,422,501,NA,NA,478,510,NA,NA,"non-free","non-free",NA,NA,"suburban","suburban",NA,NA,"master","bachelor",NA,NA,"level1","level1",NA,NA,20,16,NA,NA,"cauc","cauc",NA,NA,"11","11",NA,NA,"17","17",NA,NA
+"62297","male","cauc",1980 Q3,"small","small","small",NA,414,466,NA,NA,434,470,NA,NA,"non-free","non-free","non-free",NA,"rural","rural","rural",NA,"bachelor","bachelor","bachelor",NA,"level1","level1","level1",NA,5,10,25,NA,"cauc","cauc","cauc",NA,"33","33","33",NA,"67","67","67",NA
+"32765","male","afam",1980 Q2,"small","small",NA,NA,436,530,NA,NA,489,520,NA,NA,"non-free","non-free",NA,NA,"urban","urban",NA,NA,"master","master",NA,NA,"level1","level1",NA,NA,13,15,NA,NA,"cauc","cauc",NA,NA,"13","13",NA,NA,"37","37",NA,NA
+"113882","male","afam",1980 Q3,"regular",NA,NA,NA,430,NA,NA,NA,513,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,6,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"27",NA,NA,NA
+"72742","female","cauc",1979 Q4,"regular+aide","regular+aide","regular+aide","regular+aide",460,651,659,657,506,612,639,626,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","bachelor","level1","apprentice","level1","level2",14,1,8,19,"cauc","cauc","cauc","cauc","37","37","37","37","73","73","73","73"
+"185345","male","cauc",1980 Q1,"regular","regular+aide",NA,NA,NA,451,NA,NA,NA,497,NA,NA,"free","free",NA,NA,"rural","rural",NA,NA,"bachelor","master",NA,NA,"level1","level1",NA,NA,16,8,NA,NA,"cauc","cauc",NA,NA,"29","29",NA,NA,"62","62",NA,NA
+"119505","male","afam",1980 Q1,"regular",NA,NA,NA,NA,NA,NA,NA,468,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"master",NA,NA,NA,"probation",NA,NA,NA,6,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"33",NA,NA,NA
+"60797","male","cauc",1980 Q2,"regular",NA,NA,NA,427,NA,NA,NA,463,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"apprentice",NA,NA,NA,1,NA,NA,NA,"cauc",NA,NA,NA,"4",NA,NA,NA,"6",NA,NA,NA
+"37374","male","cauc",1980 Q2,"regular","regular","regular","regular",431,544,627,608,489,572,648,631,"free","free","free","free","rural","rural","rural","rural","bachelor","bachelor","master","master","level1","level1","apprentice","level1",4,12,1,18,"cauc","cauc","cauc","cauc","15","15","15","15","39","39","39","39"
+"22345","male","cauc",1980 Q3,"small","small","small","small",422,451,604,600,454,461,593,568,"non-free","free","free","free","rural","rural","rural","rural","specialist","bachelor","master","bachelor","level2","probation","level1","level1",8,1,8,9,"cauc","cauc","cauc","cauc","14","14","14","14","38","38","38","38"
+"182830","female","cauc",1980 Q2,"regular","regular+aide","regular+aide","regular+aide",487,651,669,728,547,627,721,700,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","master","level1","notladder","level1","level1",13,23,21,36,"cauc","cauc","afam","cauc","38","38","38","38","74","74","74","74"
+"69420","female","cauc",1980 Q2,"regular+aide","regular","regular+aide","regular+aide",497,604,684,702,547,627,626,691,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","bachelor","level1","notladder","notladder","probation",9,12,5,3,"cauc","cauc","cauc","cauc","3","3","3","3","3","3","3","3"
+"102614","female","cauc",1979 Q4,"regular+aide",NA,"regular","regular",490,NA,643,644,626,NA,632,645,"free",NA,"free",NA,"rural",NA,"rural","rural","bachelor",NA,"master","bachelor","level1",NA,"level1","probation",6,NA,19,0,"cauc",NA,"cauc","cauc","10",NA,"10","10","13",NA,"13","13"
+"133849","female","afam",1980 Q3,"small",NA,NA,NA,428,NA,NA,NA,463,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,"apprentice",NA,NA,NA,2,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"30",NA,NA,NA
+"158843","male","afam",1980 Q3,"regular+aide","regular+aide","regular+aide","regular+aide",470,505,559,636,473,529,550,629,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","master","master","bachelor","master","level1","level1","level1","level3",10,6,4,12,"afam","afam","cauc","cauc","11","11","11","11","28","28","28","28"
+"104554","male","cauc",1980 Q3,"regular+aide","regular+aide","regular+aide","regular+aide",436,503,599,633,494,562,607,684,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","bachelor","bachelor","level1","level1","level1","level1",4,8,34,10,"cauc","cauc","cauc","cauc","29","29","29","29","62","62","62","62"
+"3446","female","cauc",1979 Q4,"regular+aide","regular",NA,NA,442,536,NA,NA,528,601,NA,NA,"non-free","non-free",NA,NA,"suburban","suburban",NA,NA,"master","master",NA,NA,"level1","level1",NA,NA,8,10,NA,NA,"cauc","cauc",NA,NA,"28","28",NA,NA,"61","61",NA,NA
+"165658","male","cauc",1980 Q3,"regular","regular+aide","regular+aide","regular+aide",448,536,659,657,528,562,603,636,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","bachelor","bachelor","level1","level1","level1","level1",16,8,34,10,"cauc","cauc","cauc","cauc","29","29","29","29","62","62","62","62"
+"140540","female","cauc",1980 Q2,"regular+aide","regular","regular","regular+aide",463,558,622,657,506,572,632,648,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","master+","master","bachelor","master","level1","level1","level1","level1",12,13,17,32,"cauc","cauc","cauc","cauc","22","22","22","22","51","51","51","51"
+"69792","female","cauc",1980 Q1,"regular+aide","regular","regular","small",448,509,602,612,528,535,574,608,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","bachelor","bachelor","master","level1","level1","level1","level1",12,7,8,15,"cauc","cauc","cauc","afam","21","21","21","21","50","50","50","50"
+"18557","male","cauc",1980 Q2,"small",NA,NA,NA,442,NA,NA,NA,513,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,"cauc",NA,NA,NA,"18",NA,NA,NA,"42",NA,NA,NA
+"10153","female","cauc",1980 Q3,"small","small","small","small",510,604,659,693,626,601,699,700,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","master","master",NA,"level1","level1","level1","level1",14,13,10,30,"cauc","cauc","cauc","cauc","38","38","38","38","74","74","74","74"
+"149857","male","afam",1980 Q1,"regular","regular","regular","regular",427,472,577,585,473,484,554,601,"free","free","free","free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","probation","level3","level1","level3",0,7,18,21,"cauc","cauc","cauc","cauc","5","5","5","5","7","7","7","7"
+"151281","female","cauc",1980 Q1,"regular+aide","regular",NA,NA,437,524,NA,NA,547,526,NA,NA,"non-free","non-free",NA,NA,"urban","urban",NA,NA,"bachelor","bachelor",NA,NA,NA,"level1",NA,NA,11,20,NA,NA,"cauc","cauc",NA,NA,"13","13",NA,NA,"37","37",NA,NA
+"119447","male","cauc",1979 Q4,"regular","regular+aide","regular+aide","regular+aide",467,492,555,582,478,549,550,629,"free","free","free","free","rural","rural","rural","rural","master","bachelor","bachelor","master","level2","level1","notladder","level1",11,16,4,14,"cauc","cauc","afam","cauc","8","8","8","8","11","11","11","11"
+"25325","male","afam",1980 Q2,"regular",NA,NA,NA,410,NA,NA,NA,434,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"master+",NA,NA,NA,"level1",NA,NA,NA,8,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"16",NA,NA,NA
+"62876","male","cauc",1980 Q2,"small","small","small","small",405,509,586,620,429,495,572,589,"non-free","non-free",NA,"non-free","rural","rural","rural","rural","bachelor","master","bachelor","master","level1","level1","level1","level3",20,6,4,13,"cauc","cauc","cauc","cauc","36","36","36","36","71","71","71","71"
+"133376","female","afam",1980 Q1,"regular+aide",NA,NA,NA,398,NA,NA,NA,449,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,9,NA,NA,NA,"cauc",NA,NA,NA,"22",NA,NA,NA,"53",NA,NA,NA
+"165501","male","cauc",1980 Q2,"regular+aide",NA,NA,NA,421,NA,NA,NA,449,NA,NA,NA,"non-free",NA,NA,NA,"rural",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,12,NA,NA,NA,"cauc",NA,NA,NA,"41",NA,NA,NA,"79",NA,NA,NA
+"126889","male","cauc",1980 Q3,"regular+aide","regular+aide",NA,NA,NA,536,NA,NA,NA,542,NA,NA,"non-free","free",NA,NA,"urban","urban",NA,NA,"bachelor","master",NA,NA,"probation","level2",NA,NA,0,11,NA,NA,"cauc","cauc",NA,NA,"13","13",NA,NA,"37","37",NA,NA
+"44982","male","cauc",1979 Q4,"regular+aide","regular",NA,NA,458,436,NA,NA,547,477,NA,NA,"free","free",NA,NA,"rural","rural",NA,NA,"bachelor","bachelor",NA,NA,"level1","level1",NA,NA,12,32,NA,NA,"cauc","cauc",NA,NA,"9","9",NA,NA,"12","12",NA,NA
+"117307","female","cauc",1980 Q3,"small","small","small","small",460,516,614,612,513,535,611,612,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","specialist","bachelor","bachelor","bachelor","level1","level1","level1","apprentice",14,39,8,0,"cauc","afam","cauc","cauc","1","1","1","1","1","1","1","1"
+"51801","female","cauc",1980 Q3,"small","regular",NA,NA,456,604,NA,NA,536,578,NA,NA,"non-free","free",NA,NA,"suburban","suburban",NA,NA,"bachelor","bachelor",NA,NA,"level2","probation",NA,NA,13,2,NA,NA,"cauc","afam",NA,NA,"11","11",NA,NA,"24","24",NA,NA
+"174490","female","afam",1980 Q3,"regular+aide",NA,NA,NA,388,NA,NA,NA,392,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,11,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"18",NA,NA,NA
+"29975","female","afam",1979 Q4,"regular+aide","regular+aide","regular+aide","regular+aide",414,469,557,599,484,502,570,582,"free","free","free","free","inner-city","inner-city","inner-city","inner-city","master","master","bachelor","bachelor","level1","level1","notladder","level1",22,7,6,5,"cauc","cauc","cauc","cauc","11","11","11","11","33","33","33","33"
+"76089","female","cauc",1980 Q3,"regular",NA,NA,NA,414,NA,NA,NA,463,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,8,NA,NA,NA,"cauc",NA,NA,NA,"3",NA,NA,NA,"3",NA,NA,NA
+"46925","male","afam",1980 Q2,"regular",NA,NA,NA,413,NA,NA,NA,418,NA,NA,NA,"free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,4,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"20",NA,NA,NA
+"18575","male","cauc",1980 Q1,"small","small","small","small",437,548,643,618,500,535,639,612,"non-free","non-free","free","non-free","rural","rural","rural","rural","master","master","master","master","level1","level1","level1","level1",13,14,17,19,"cauc","cauc","cauc","cauc","6","6","6","6","8","8","8","8"
+"150583","female","cauc",1979 Q4,"regular","regular+aide",NA,NA,NA,505,NA,NA,NA,567,NA,NA,"non-free","non-free",NA,NA,"suburban","suburban",NA,NA,"bachelor","bachelor",NA,NA,"level1","level1",NA,NA,11,6,NA,NA,"cauc","cauc",NA,NA,"22","22",NA,NA,"51","51",NA,NA
+"95583","female","cauc",1980 Q1,"regular+aide",NA,NA,NA,413,NA,NA,NA,454,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,9,NA,NA,NA,"cauc",NA,NA,NA,"3",NA,NA,NA,"3",NA,NA,NA
+"121484","male","cauc",1980 Q2,"regular",NA,NA,NA,416,NA,NA,NA,468,NA,NA,NA,"free",NA,NA,NA,"rural",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,11,NA,NA,NA,"cauc",NA,NA,NA,"21",NA,NA,NA,"49",NA,NA,NA
+"74119","female","cauc",1979 Q4,"regular+aide","regular","regular","regular",433,478,591,624,520,505,579,616,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","master","master","bachelor","bachelor","level1","level1","level1","level1",13,13,20,28,"cauc","cauc","cauc","cauc","40","40","40","40","76","77","77","77"
+"153133","male","afam",1980 Q2,"regular+aide",NA,NA,NA,422,NA,NA,NA,444,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,16,NA,NA,NA,"afam",NA,NA,NA,"11",NA,NA,NA,"22",NA,NA,NA
+"134095","female","cauc",1980 Q1,"regular","regular+aide","regular+aide","regular+aide",421,477,536,554,473,497,526,565,"non-free","free",NA,"non-free","urban","urban","urban","urban","master","bachelor","bachelor","bachelor","level1","notladder","level1","notladder",4,0,12,31,"cauc","cauc","cauc","cauc","20","20","20","20","48","48","48","48"
+"63832","male","cauc",1979 Q4,"small",NA,NA,NA,431,NA,NA,NA,520,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,20,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"17",NA,NA,NA
+"172744","female","cauc",1979 Q4,"regular+aide","regular","regular","regular+aide",408,NA,NA,NA,494,518,NA,612,"free","free","free","free","rural","rural","rural","rural","bachelor","bachelor","master","bachelor","level1","probation","level3","level1",14,0,18,14,"cauc","cauc","cauc","cauc","35","35","35","35","70","70","70","70"
+"117451","female","cauc",1980 Q3,"small","small",NA,NA,397,460,NA,NA,412,479,NA,NA,"non-free","non-free",NA,NA,"rural","rural",NA,NA,"bachelor","bachelor",NA,NA,"apprentice","level1",NA,NA,3,21,NA,NA,"cauc","cauc",NA,NA,"24","24",NA,NA,"56","56",NA,NA
+"7766","male","afam",1979 Q4,"regular",NA,NA,NA,411,NA,NA,NA,449,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"32",NA,NA,NA
+"108233","female","cauc",1980 Q3,"regular","regular",NA,NA,433,499,NA,NA,506,495,NA,NA,"free","free",NA,NA,"suburban","suburban",NA,NA,"bachelor","master",NA,NA,"level1","level1",NA,NA,8,8,NA,NA,"cauc","cauc",NA,NA,"4","4",NA,NA,"4","4",NA,NA
+"75389","male","afam",1980 Q2,"regular","regular+aide",NA,NA,NA,478,NA,NA,NA,484,NA,NA,"non-free","non-free",NA,NA,"rural","rural",NA,NA,"bachelor","master",NA,NA,NA,"level2",NA,NA,5,10,NA,NA,"cauc","cauc",NA,NA,"1","1",NA,NA,"1","1",NA,NA
+"15246","male","cauc",1979 Q2,"regular","regular+aide","regular+aide","regular+aide",455,629,637,675,576,653,615,655,"non-free","non-free","non-free","non-free","urban","urban","urban","urban","bachelor","master","master","master","probation","level1","level1","level1",0,12,13,7,"cauc","cauc","cauc","cauc","26","26","26","26","59","59","59","59"
+"95808","male","cauc",1980 Q1,"regular+aide","regular+aide","regular+aide","regular+aide",NA,564,566,639,NA,562,607,645,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","level1","level1","level1",13,8,13,13,"cauc","cauc","cauc","cauc","32","32","32","32","66","66","66","66"
+"174766","male","afam",1980 Q2,"small","small","small",NA,421,512,NA,NA,489,584,NA,NA,"non-free","non-free","non-free",NA,"inner-city","inner-city","inner-city",NA,"master","bachelor","master",NA,"level1","level1","level1",NA,8,8,21,NA,"cauc","cauc","afam",NA,"11","11","11",NA,"28","28","28",NA
+"128778","male","cauc",1980 Q3,"regular",NA,NA,NA,400,NA,NA,NA,468,NA,NA,NA,"non-free",NA,NA,NA,"rural",NA,NA,NA,"master",NA,NA,NA,"level1",NA,NA,NA,8,NA,NA,NA,"cauc",NA,NA,NA,"41",NA,NA,NA,"78",NA,NA,NA
+"100124","female","afam",1980 Q2,"small",NA,NA,NA,437,NA,NA,NA,528,NA,NA,NA,"free",NA,NA,NA,"inner-city",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,14,NA,NA,NA,"cauc",NA,NA,NA,"11",NA,NA,NA,"32",NA,NA,NA
+"45120","female","cauc",1979 Q1,"small","small",NA,NA,NA,430,NA,NA,NA,463,NA,NA,"free","free",NA,NA,"rural","rural",NA,NA,"bachelor","master",NA,NA,"level1","level1",NA,NA,12,15,NA,NA,"cauc","cauc",NA,NA,"41","41",NA,NA,"79","79",NA,NA
+"140985","female","cauc",1980 Q3,"regular+aide","regular","regular","regular",433,488,545,608,444,523,548,591,"non-free","non-free","free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","bachelor","level1","level1","level1","level1",5,19,19,22,"cauc","cauc","cauc","cauc","31","31","31","31","64","64","64","64"
+"118262","male","cauc",1979 Q4,"small","small","small","small",527,651,659,665,547,592,632,659,"non-free","non-free","non-free","non-free","suburban","suburban","suburban","suburban","master","bachelor","bachelor","master","level1","level1","level1","level3",15,9,8,17,"cauc","cauc","cauc","cauc","22","22","22","22","51","51","51","51"
+"150575","male","cauc",1980 Q1,"regular","regular+aide",NA,NA,405,434,NA,NA,463,493,NA,NA,"free","free",NA,NA,"rural","rural",NA,NA,"bachelor","master",NA,NA,"level1","level1",NA,NA,11,11,NA,NA,"cauc","afam",NA,NA,"21","21",NA,NA,"49","49",NA,NA
+"117565","female","cauc",1980 Q2,"regular+aide","regular+aide","regular+aide","regular+aide",413,509,552,572,429,493,536,574,"free","free","free","free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","apprentice","notladder","probation",15,2,19,0,"cauc","cauc","cauc","cauc","19","19","19","19","47","47","47","47"
+"86874","male","cauc",1980 Q3,"regular+aide","regular",NA,NA,413,482,NA,NA,473,529,NA,NA,"non-free","non-free",NA,NA,"suburban","suburban",NA,NA,"master","master",NA,NA,"level1","level3",NA,NA,14,18,NA,NA,"cauc","cauc",NA,NA,"12","12",NA,NA,"36","36",NA,NA
+"89719","female","cauc",1979 Q4,"regular+aide","regular+aide","regular+aide","regular+aide",430,536,614,629,484,529,590,659,"non-free","non-free","non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","bachelor","bachelor","level1","level1","level1","level1",12,39,9,16,"cauc","cauc","cauc","cauc","9","9","9","9","12","12","12","12"
+"69086","female","cauc",1980 Q2,"regular","regular+aide","regular+aide","regular+aide",453,527,552,592,468,535,559,603,"non-free",NA,"non-free","non-free","rural","rural","rural","rural","bachelor","bachelor","master","master","level1","level1","level1","level1",11,28,4,16,"cauc","cauc","cauc","cauc","31","31","31","31","64","64","64","64"
+"81792","female","cauc",1980 Q1,"regular",NA,NA,NA,468,NA,NA,NA,536,NA,NA,NA,"non-free",NA,NA,NA,"suburban",NA,NA,NA,"bachelor",NA,NA,NA,"level1",NA,NA,NA,12,NA,NA,NA,"cauc",NA,NA,NA,"18",NA,NA,NA,"46",NA,NA,NA
