@@ -1,0 +1,87 @@
+Basic Data Transformations in R
+========================================================
+## Setup
+### Options chunk
+```{r opts}
+opts_knit$set(root.dir='../../../')
+```
+
+### Data chunk
+```{r}
+source('data/starRmake.R')
+```
+## Transforming the Variable Class
+
+### Factor to Numeric
+```{r}
+
+class(star$schoolk)
+star$schoolk.n <- as.numeric(star$schoolk)
+hist(star$schoolk.n, col='skyblue')
+```
+
+### Numeric to Factor
+
+```{r}
+# look at the readk variable (numeric)
+hist(star$readk, col='skyblue')
+# set break points
+brks <- c(0, 425, 475, 525, Inf)
+star$readk.fac <- cut(star$readk, breaks=brks)
+class(star$readk.fac)
+barplot(table(star$readk.fac))
+# with labels
+star$readk.fac <- cut(star$readk, breaks=brks, 
+                      labels=c('low', 'low med','hi med', 'hi' ))
+
+barplot(table(star$readk.fac))
+```
+## Recoding  Variables
+```{r }
+library(car)
+# factor
+star$readk.fac <- recode(star$readk.fac, "'low med'='med'; c('hi med', 'hi')= 'hi'")
+barplot(table(star$readk.fac))
+# reorder factors
+star$readk.fac <- factor(star$readk.fac, levels=c('low', 'med', 'hi'))
+# or, using original recode function with levels argument
+star$readk.fac <- recode(star$readk.fac, "'low med'='med'; c('hi med', 'hi')= 'hi'", levels=c('low', 'med','hi'))
+barplot(table(star$readk.fac))
+# another factor
+barplot(table(star$schoolk))
+star$schoolk.3 <- recode(star$schoolk, "c('suburban', 'urban')='urban'")
+barplot(table(star$schoolk.3))
+
+# numeric 
+star$schoolk.3n <- recode(star$schoolk.n, "3:4=4")
+barplot(table(star$schoolk.3n))
+```
+
+## Dummy Code variables
+```{r}
+# YOU DON'T NEED TO FOR REGRESSION IN R!!
+table(star$stark)
+mod <- lm(read1 ~ stark, star)
+summary(mod)
+
+# Dummy coding with the dummies package
+# install.packages('dummies')
+library(dummies)
+stark.dumdf <- dummy(star$stark)
+star <- dummy.data.frame(star, names='stark')
+```
+
+## Using  ```dplyr``` Package
+```{r}
+library(dplyr)
+head(star)
+
+df <- tbl_df(star)
+
+fem.df <- filter(df, gender=='female')
+fem2.df <- df[df$gender=='female', ]
+male.df <- filter(df, gender=='male')
+
+fem.df <- arrange(fem.df, readk)
+head(fem.df)
+```
