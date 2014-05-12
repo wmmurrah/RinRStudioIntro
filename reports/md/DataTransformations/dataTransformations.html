@@ -190,64 +190,13 @@ hljs.initHighlightingOnLoad();
 
 <h3>Data chunk</h3>
 
-<pre><code class="r">source(&quot;data/starRmake.R&quot;)
-</code></pre>
-
-<pre><code>## Loading required package: Hmisc
-## Loading required package: grid
-## Loading required package: lattice
-## Loading required package: survival
-## Loading required package: splines
-## Loading required package: Formula
-## 
-## Attaching package: &#39;Hmisc&#39;
-## 
-## The following object is masked from &#39;package:psych&#39;:
-## 
-##     describe
-## 
-## The following objects are masked from &#39;package:base&#39;:
-## 
-##     format.pval, round.POSIXt, trunc.POSIXt, units
-## 
-## Loading required package: tcltk
-## Loading required package: tkrplot
-## Loading required package: VIM
-## Loading required package: colorspace
-## VIM is ready to use. 
-##  Since version 4.0.0 the GUI is in its own package VIMGUI.
-## 
-##           Please use the package to use the new (and old) GUI.
-## 
-## 
-## Attaching package: &#39;VIM&#39;
-## 
-## The following object is masked from &#39;package:datasets&#39;:
-## 
-##     sleep
-## 
-## Loading required package: survey
-## 
-## Attaching package: &#39;survey&#39;
-## 
-## The following object is masked from &#39;package:Hmisc&#39;:
-## 
-##     deff
-## 
-## The following object is masked from &#39;package:graphics&#39;:
-## 
-##     dotchart
-## 
-## Loading required package: gWidgetsRGtk2
-## Loading required package: RGtk2
-## Loading required package: gWidgets
-## VIM is ready to use. 
-##  (Enter vmGUImenu() to start the OLD graphical user interface.)
-## 
-##     Enter VIMGUI() to start the NEW graphical user interface.
+<pre><code class="r"># source(&#39;data/starRmake.R&#39;)
+star &lt;- read.csv(file = &quot;data/star.csv&quot;, header = TRUE)
 </code></pre>
 
 <h2>Transforming the Variable Class</h2>
+
+<p>Data transformations focus on taking raw variables and modifying them so they are more appropriate for the planned analysis.  We hav previously discussed how to explore your data (e.g. evaluate distributions, look for outliers). In this tutorial we consider functions useful in making changes to variables once they are identified as problematic.</p>
 
 <h3>Factor to Numeric</h3>
 
@@ -257,6 +206,11 @@ class(star$schoolk)
 
 <pre><code>## [1] &quot;factor&quot;
 </code></pre>
+
+<pre><code class="r">barplot(table(star$schoolk))
+</code></pre>
+
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-2"/> </p>
 
 <pre><code class="r">star$schoolk.n &lt;- as.numeric(star$schoolk)
 hist(star$schoolk.n, col = &quot;skyblue&quot;)
@@ -298,17 +252,7 @@ barplot(table(star$readk.fac))
 <h2>Recoding  Variables</h2>
 
 <pre><code class="r">library(car)
-</code></pre>
-
-<pre><code>## 
-## Attaching package: &#39;car&#39;
-## 
-## The following object is masked from &#39;package:psych&#39;:
-## 
-##     logit
-</code></pre>
-
-<pre><code class="r"># factor
+# factor
 star$readk.fac &lt;- recode(star$readk.fac, &quot;&#39;low med&#39;=&#39;med&#39;; c(&#39;hi med&#39;, &#39;hi&#39;)= &#39;hi&#39;&quot;)
 barplot(table(star$readk.fac))
 </code></pre>
@@ -402,18 +346,6 @@ star &lt;- dummy.data.frame(star, names = &quot;stark&quot;)
 <pre><code>## 
 ## Attaching package: &#39;dplyr&#39;
 ## 
-## The following object is masked from &#39;package:gWidgetsRGtk2&#39;:
-## 
-##     id
-## 
-## The following object is masked from &#39;package:gWidgets&#39;:
-## 
-##     id
-## 
-## The following objects are masked from &#39;package:Hmisc&#39;:
-## 
-##     src, summarize
-## 
 ## The following objects are masked from &#39;package:stats&#39;:
 ## 
 ##     filter, lag
@@ -426,27 +358,62 @@ star &lt;- dummy.data.frame(star, names = &quot;stark&quot;)
 <pre><code class="r">head(star)
 </code></pre>
 
-<pre><code>##   gender ethnicity   birth starkregular starkregular+aide starksmall readk
-## 1 female      cauc 1980 Q3            0                 0          1   443
-## 2 female      cauc 1979 Q4            1                 0          0   492
-## 3 female      afam 1979 Q4            0                 1          0   398
-## 4 female      afam 1980 Q1            0                 1          0   419
-## 5 female      afam 1980 Q2            1                 0          0   360
-## 6   male      cauc 1979 Q3            0                 0          1   451
-##   read1 mathk math1   lunchk    schoolk schoolidk schoolk.n readk.fac
-## 1    NA   520    NA non-free   suburban        41         3       med
-## 2   540   513   557     free      rural        11         2        hi
-## 3    NA   405   444     free      rural        56         2       low
-## 4   453   444   479     free inner-city        14         1       low
-## 5    NA   320    NA     free inner-city        33         1       low
-## 6   571   506   627 non-free   suburban         4         3       med
-##    schoolk.3 schoolk.3n
-## 1      urban          4
-## 2      rural          2
-## 3      rural          2
-## 4 inner-city          1
-## 5 inner-city          1
-## 6      urban          4
+<pre><code>##        X gender ethnicity   birth starkregular starkregular+aide
+## 1 179449 female      cauc 1980 Q3            0                 0
+## 2  82199 female      cauc 1979 Q4            1                 0
+## 3  68952 female      afam 1979 Q4            0                 1
+## 4  32609 female      afam 1980 Q1            0                 1
+## 5  11196 female      afam 1980 Q2            1                 0
+## 6 122089   male      cauc 1979 Q3            0                 0
+##   starksmall        star1        star2        star3 readk read1 read2
+## 1          1         &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;   443    NA    NA
+## 2          0 regular+aide regular+aide         &lt;NA&gt;   492   540   637
+## 3          0      regular regular+aide regular+aide   398    NA   514
+## 4          0 regular+aide      regular      regular   419   453   518
+## 5          0         &lt;NA&gt;         &lt;NA&gt;         &lt;NA&gt;   360    NA    NA
+## 6          1        small        small        small   451   571   611
+##   read3 mathk math1 math2 math3   lunchk   lunch1   lunch2   lunch3
+## 1    NA   520    NA    NA    NA non-free     &lt;NA&gt;     &lt;NA&gt;     &lt;NA&gt;
+## 2    NA   513   557   587    NA     free     free     free     &lt;NA&gt;
+## 3    NA   405   444   497    NA     free     free     free     free
+## 4   562   444   479   523   546     free     free     free     free
+## 5    NA   320    NA    NA    NA     free     &lt;NA&gt;     &lt;NA&gt;     &lt;NA&gt;
+## 6   616   506   627   632   711 non-free non-free non-free non-free
+##      schoolk    school1    school2    school3  degreek  degree1  degree2
+## 1   suburban       &lt;NA&gt;       &lt;NA&gt;       &lt;NA&gt;   master     &lt;NA&gt;     &lt;NA&gt;
+## 2      rural      rural      rural       &lt;NA&gt;   master bachelor bachelor
+## 3      rural      rural      rural      rural bachelor bachelor   master
+## 4 inner-city inner-city inner-city inner-city bachelor bachelor bachelor
+## 5 inner-city       &lt;NA&gt;       &lt;NA&gt;       &lt;NA&gt;   master     &lt;NA&gt;     &lt;NA&gt;
+## 6   suburban   suburban   suburban   suburban bachelor bachelor bachelor
+##    degree3    ladderk    ladder1   ladder2 ladder3 experiencek experience1
+## 1     &lt;NA&gt;     level1       &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;          18          NA
+## 2     &lt;NA&gt;     level2     level1 notladder    &lt;NA&gt;          11          16
+## 3   master     level1  probation    level1  level1           7           3
+## 4 bachelor apprentice  probation    level1  level1           1          17
+## 5     &lt;NA&gt;  probation       &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;           6          NA
+## 6   master       &lt;NA&gt; apprentice    level1  level1           0           0
+##   experience2 experience3 tethnicityk tethnicity1 tethnicity2 tethnicity3
+## 1          NA          NA        cauc        &lt;NA&gt;        &lt;NA&gt;        &lt;NA&gt;
+## 2           4          NA        cauc        cauc        afam        &lt;NA&gt;
+## 3          29          11        cauc        cauc        cauc        cauc
+## 4          30          31        afam        afam        afam        afam
+## 5          NA          NA        cauc        &lt;NA&gt;        &lt;NA&gt;        &lt;NA&gt;
+## 6          14          18        cauc        cauc        cauc        cauc
+##   systemk system1 system2 system3 schoolidk schoolid1 schoolid2 schoolid3
+## 1      17      NA      NA      NA        41        NA        NA        NA
+## 2       8       8       8      NA        11        11        11        NA
+## 3      24      24      24      24        56        56        56        56
+## 4      11      11      11      11        14        14        32        32
+## 5      11      NA      NA      NA        33        NA        NA        NA
+## 6       4       4       4       4         4         4         4         4
+##   schoolk.n readk.fac  schoolk.3 schoolk.3n
+## 1         3       med      urban          4
+## 2         2        hi      rural          2
+## 3         2       low      rural          2
+## 4         1       low inner-city          1
+## 5         1       low inner-city          1
+## 6         3       med      urban          4
 </code></pre>
 
 <pre><code class="r">
@@ -460,18 +427,27 @@ fem.df &lt;- arrange(fem.df, readk)
 head(fem.df)
 </code></pre>
 
-<pre><code>## Source: local data frame [6 x 17]
+<pre><code>## Source: local data frame [6 x 54]
 ## 
-##   gender ethnicity   birth starkregular starkregular+aide starksmall readk
-## 1 female      afam 1980 Q2            1                 0          0   360
-## 2 female      afam 1980 Q3            0                 1          0   388
-## 3 female      cauc 1980 Q3            1                 0          0   390
-## 4 female      cauc 1980 Q2            0                 0          1   397
-## 5 female      cauc 1980 Q3            0                 0          1   397
-## 6 female      afam 1979 Q4            0                 1          0   398
-## Variables not shown: read1 (int), mathk (int), math1 (int), lunchk (fctr),
-##   schoolk (fctr), schoolidk (int), schoolk.n (dbl), readk.fac (fctr),
-##   schoolk.3 (fctr), schoolk.3n (dbl)
+##        X gender ethnicity   birth starkregular starkregular+aide
+## 1  11196 female      afam 1980 Q2            1                 0
+## 2 174490 female      afam 1980 Q3            0                 1
+## 3 160490 female      cauc 1980 Q3            1                 0
+## 4  84844 female      cauc 1980 Q2            0                 0
+## 5 117451 female      cauc 1980 Q3            0                 0
+## 6  68952 female      afam 1979 Q4            0                 1
+## Variables not shown: starksmall (int), star1 (fctr), star2 (fctr), star3
+##   (fctr), readk (int), read1 (int), read2 (int), read3 (int), mathk (int),
+##   math1 (int), math2 (int), math3 (int), lunchk (fctr), lunch1 (fctr),
+##   lunch2 (fctr), lunch3 (fctr), schoolk (fctr), school1 (fctr), school2
+##   (fctr), school3 (fctr), degreek (fctr), degree1 (fctr), degree2 (fctr),
+##   degree3 (fctr), ladderk (fctr), ladder1 (fctr), ladder2 (fctr), ladder3
+##   (fctr), experiencek (int), experience1 (int), experience2 (int),
+##   experience3 (int), tethnicityk (fctr), tethnicity1 (fctr), tethnicity2
+##   (fctr), tethnicity3 (fctr), systemk (int), system1 (int), system2 (int),
+##   system3 (int), schoolidk (int), schoolid1 (int), schoolid2 (int),
+##   schoolid3 (int), schoolk.n (dbl), readk.fac (fctr), schoolk.3 (fctr),
+##   schoolk.3n (dbl)
 </code></pre>
 
 </body>

@@ -8,14 +8,17 @@ opts_knit$set(root.dir='../../../')
 
 ### Data chunk
 ```{r}
-source('data/starRmake.R')
+# source('data/starRmake.R')
+star <- read.csv(file='data/star.csv', header=TRUE)
 ```
+
 ## Transforming the Variable Class
+Data transformations focus on taking raw variables and modifying them so they are more appropriate for the planned analysis.  We hav previously discussed how to explore your data (e.g. evaluate distributions, look for outliers). In this tutorial we consider functions useful in making changes to variables once they are identified as problematic.
 
 ### Factor to Numeric
 ```{r}
-
 class(star$schoolk)
+barplot(table(star$schoolk))
 star$schoolk.n <- as.numeric(star$schoolk)
 hist(star$schoolk.n, col='skyblue')
 ```
@@ -36,6 +39,7 @@ star$readk.fac <- cut(star$readk, breaks=brks,
 
 barplot(table(star$readk.fac))
 ```
+
 ## Recoding  Variables
 ```{r }
 library(car)
