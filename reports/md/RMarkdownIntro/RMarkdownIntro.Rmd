@@ -1,0 +1,31 @@
+Title
+========================================================
+```{r opts}
+opts_knit$set(root.dir='../../../')
+```
+
+text.
+
+```{r}
+# source(file='data/starRmake.R')
+star <- read.csv("data/star.csv")
+library(Hmisc)
+library(psych)
+library(tables)
+
+```
+
+```{r descriptives}
+psych::describe(star)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+# Title
+```{r table1, results='asis'}
+Mean <- function(x) {mean(x, na.rm=TRUE)}
+ html(tabular(ethnicity + Heading('Total')*1 ~ Mean*mathk, star))
+```
